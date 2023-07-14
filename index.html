@@ -16,22 +16,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
+<audio id="audio" autoplay ><source src="sound.mp3" type="audio/mp3"></audio> 
+<script type=”text/javascript”>
+    function autoplay(){
+       
+            document.getElementById(“audio”).play();
+        
+      }
+    </script>
 
-<!-- <audio id="audioID" loop> <source src="sound.mp3"  type="audio/mp3"></audio>
-
-<script>
-var myaudio = document.getElementById("audioID").autoplay = true;
-</script> -->
-
-<embed src="silence.mp3" type="audio/mp3" autostart="true" hidden="true">
-    <audio id="player" autoplay ><source src="sound.mp3" type="audio/mp3"></audio> 
+<!-- <embed src="silence.mp3" type="audio/mp3" autostart="true" hidden="true">
+    <audio id="player" autoplay ><source src="sound.mp3" type="audio/mp3"></audio>  -->
 
 <body >
     <div class="wrapper">
-        <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-        <audio id="player" autoplay loop>
-            <source src="sound.mp3" type="audio/mp3">
-        </audio> -->
+        
   
 
         <!-- Preloader -->
